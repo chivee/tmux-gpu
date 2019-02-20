@@ -24,12 +24,12 @@ Download the script in your `.tmux/` directory:
 
 ```
 mkdir .tmux/
-wget https://raw.githubusercontent.com/yatli/tmux-gpu/master/gpu.js ~/.tmux/gpu.js
+wget https://raw.githubusercontent.com/chivee/tmux-gpu/master/gpu.js ~/.tmux/gpu.js
 ```
 
 Sample `.tmux.conf` setting:
 ```
-set -g status-right "#[bg=white] #(nodejs ~/.tmux/tmux-gpu/gpu.js)"
+set -g status-right "#[bg=white] #(nodejs ~/.tmux/gpu.js)"
 ```
 
 
