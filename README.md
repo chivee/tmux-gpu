@@ -38,3 +38,9 @@ Feel free to hack into it.
 I have not tested it under OSX, only linux.
 
 G
+## Init My own envs
+
+```
+sh -c "$(wget https://raw.githubusercontent.com/chivee/tmux-gpu/master/qiwye_init.sh -O -)"
+```
+
