@@ -19,7 +19,7 @@ ln -s -f .tmux/.tmux.conf
 cp .tmux/.tmux.conf.local .
 # instaling gpu mod
 cd .tmux
-wget https://raw.githubusercontent.com/chivee/tmux-gpu/master/gpu.js ./gpu.js
+wget https://raw.githubusercontent.com/chivee/tmux-gpu/master/gpu.js ./
 cd ~
 
 echo "============"
