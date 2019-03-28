@@ -5,6 +5,7 @@ echo "Install package"
 echo "============"
 sudo apt update -y
 sudo apt install tmux git zsh nodejs npm python3-dev python3-pip python3-setuptools -y
+sudo npm install tmux-colors
 
 echo "============"
 echo "Install oh-My-ZSH"
