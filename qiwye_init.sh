@@ -37,7 +37,7 @@ echo "run -b '~/.tmux/plugins/tpm/tpm'" >> .tmux.conf.local
 echo "============"
 echo "Install TheF**K"
 echo "============"
-sudo pip install thefuck
+sudo pip3 install thefuck
 echo "eval $(thefuck --alias)" >> .zshrc
 echo "eval $(thefuck --alias)" >> .bashrc
 
