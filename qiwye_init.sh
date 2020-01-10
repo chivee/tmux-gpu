@@ -7,10 +7,17 @@ sudo apt update -y
 sudo apt install tmux git zsh nodejs npm python3-dev python3-pip python3-setuptools -y
 sudo npm install tmux-colors
 
+# echo "============"
+# echo "Install oh-My-ZSH"
+# echo "============"
+# sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
+
 echo "============"
-echo "Install oh-My-ZSH"
+echo "Install Antigen"
 echo "============"
-sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
+cd ~
+curl -L git.io/antigen > antigen.zsh
+wget https://raw.githubusercontent.com/chivee/tmux-gpu/master/.zshrc
 
 echo "============"
 echo "Install oh-My-Tmux"
