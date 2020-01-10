@@ -17,6 +17,7 @@ echo "Install Antigen"
 echo "============"
 cd ~
 curl -L git.io/antigen > antigen.zsh
+mv antigen.zsh .antigen.zsh
 wget https://raw.githubusercontent.com/chivee/tmux-gpu/master/.zshrc
 
 echo "============"
